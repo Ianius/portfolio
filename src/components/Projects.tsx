@@ -12,6 +12,10 @@ import chatWebsite from "../assets/chat-website.png";
 import chatWebsite1 from "../assets/chat-website-1.png";
 import chatWebsite2 from "../assets/chat-website-2.png";
 
+import portfolioWebsite from "../assets/portfolio-website.png";
+import portfolioWebsite1 from "../assets/portfolio-website-1.png";
+import portfolioWebsite2 from "../assets/portfolio-website-2.png";
+
 const Projects = () => {
     const projects = [
         {
@@ -21,7 +25,7 @@ const Projects = () => {
             demoUrl: "https://movies-chi-neon.vercel.app/",
             codeUrl: "https://github.com/Ianius/movies-frontend",
             description: "A movie website where you can browse and read details about movies.",
-            technologies: ["React", "Typescript", "NodeJS", "Express", "Chakra UI"]
+            technologies: ["React", "TypeScript", "NodeJS", "Express", "Chakra UI"]
         },
 
         {
@@ -31,7 +35,18 @@ const Projects = () => {
             demoUrl: "https://chat-client-brown.vercel.app/",
             codeUrl: "https://github.com/Ianius/chat-client",
             description: "Chat application made with React and socket.io",
-            technologies: ["React", "Typescript", "NodeJS", "Express", "Chakra UI", "Socket IO"]
+            technologies: ["React", "TypeScript", "NodeJS", "Express", "Chakra UI", "Socket IO"]
+        },
+
+
+        {
+            name: "Portfolio",
+            images: [portfolioWebsite, portfolioWebsite1, portfolioWebsite2],
+            details: "A portfolio to showcase my projects",
+            demoUrl: "",
+            codeUrl: "",
+            description: "Responsive portfolio website with three sections",
+            technologies: ["React", "TypeScript", "Chakra UI"]
         }
     ];
 
