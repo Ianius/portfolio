@@ -43,8 +43,8 @@ const Projects = () => {
             name: "Portfolio",
             images: [portfolioWebsite, portfolioWebsite1, portfolioWebsite2],
             details: "A portfolio to showcase my projects",
-            demoUrl: "",
-            codeUrl: "",
+            demoUrl: "https://portfolio-michaelpena.vercel.app/",
+            codeUrl: "https://github.com/Ianius/portfolio",
             description: "Responsive portfolio website with three sections",
             technologies: ["React", "TypeScript", "Chakra UI"]
         }
