@@ -7,6 +7,8 @@ import moviesWebsite1 from "../assets/movies-website-1.png";
 import moviesWebsite2 from "../assets/movies-website-2.png";
 import moviesWebsite3 from "../assets/movies-website-3.png";
 import moviesWebsite4 from "../assets/movies-website-4.png";
+import moviesWebsite5 from "../assets/movies-website-5.png";
+import moviesWebsite6 from "../assets/movies-website-6.png";
 
 import chatWebsite from "../assets/chat-website.png";
 import chatWebsite1 from "../assets/chat-website-1.png";
@@ -19,13 +21,13 @@ import portfolioWebsite2 from "../assets/portfolio-website-2.png";
 const Projects = () => {
     const projects = [
         {
-            name: "Movies",
-            images: [moviesWebsite, moviesWebsite1, moviesWebsite2, moviesWebsite3, moviesWebsite4],
-            details: "A platform for browsing and learning about movies. The home page displays a list of popular and trending films with links to more information. Users can view details about each movie and search for films.",
-            demoUrl: "https://movies-chi-neon.vercel.app/",
+            name: "FilmFeast",
+            images: [moviesWebsite, moviesWebsite1, moviesWebsite2, moviesWebsite3, moviesWebsite4, moviesWebsite5, moviesWebsite6],
+            details: "A platform for browsing movies, writing reviews, and creating your own custom movie lists. The home page displays a list of popular and trending films with links to more information. Users can view details about each movie and search for films.",
+            demoUrl: "https://filmfeast.netlify.app/",
             codeUrl: "https://github.com/Ianius/movies-frontend",
-            description: "A movie website where you can browse and read details about movies.",
-            technologies: ["React", "TypeScript", "NodeJS", "Express", "Chakra UI"]
+            description: "A movie website where you can browse movies, write reviews, add movies to your favorites, watchlist, and custom lists.",
+            technologies: ["React", "TypeScript", "NodeJS", "Express", "MySQL", "Chakra UI"]
         },
 
         {
