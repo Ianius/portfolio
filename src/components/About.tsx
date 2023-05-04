@@ -58,7 +58,7 @@ const About = ({ onSectionLinkClicked }: Props) => {
                 <Divider />
 
                 <Text>
-                    Hi there! My name is Michael Peña and I am a self-taught web developer from Colombia. I am fluent in both English and Spanish and am always working to improve my skills and stay up-to-date with the latest trends in web development.
+                    Hi there! My name is Michael Peña and I am a systems engineering student from Colombia. I am fluent in both English and Spanish and am always working to improve my skills and stay up-to-date with the latest trends in web development.
                 </Text>
 
                 <Text>
