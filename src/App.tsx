@@ -1,5 +1,5 @@
 import { Box, Center, Flex, useColorModeValue } from '@chakra-ui/react';
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState, ReactNode } from 'react';
 import About from './components/About';
 import ColorModeSwitch from './components/ColorModeSwitch';
 import Navbar from './components/Navbar';
@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 interface SectionData {
     name: string;
-    element?: React.ReactNode;
+    element?: ReactNode;
 }
 
 const scrollIntoSection = (elements: HTMLDivElement[], index: number) =>
